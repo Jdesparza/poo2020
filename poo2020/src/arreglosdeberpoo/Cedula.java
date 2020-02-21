@@ -117,11 +117,10 @@ public class Cedula {
         if (numCedula.length() <= 10) {
             if (arrayCedula[9] == resultadoFinal) {
                 System.out.println("Su número de cédula es: "+numCedula);
-                System.out.println("El último número de su cédula es: "+arrayCedula[9]+"\n\t" +
-                        "Y tambien al realizar la verificación resulto ser: "+resultadoFinal+
-                        "\n\t\tPor lo tanto su cédula es verdadera");
+                System.out.println("El dígito verificador es: "+resultadoFinal+
+                        "\n\tPor lo tanto\n\t\tEl número de cédula es correcto");
             } else {
-                System.out.println("El número de cédula es invalido\n\tEl último numero de su cedula es: "
+                System.out.println("Cédula incorrecta\n\tEl último numero de su cedula es: "
                 +arrayCedula[9]+"\n\t\tY el número obtenido tras la verificación es: "+resultadoFinal);
             }
         } else {
