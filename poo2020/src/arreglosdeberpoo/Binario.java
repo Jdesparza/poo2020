@@ -35,7 +35,12 @@ public class Binario {
         if (numBinario.length() <= 6) {
             decimal = 0;
             for (int i = 0; i < numBinario.length(); i++) {
-                decimal += (arrayBinario[i] * (int) Math.pow(2, ((numBinario.length()-1)-i)));
+                if ((arrayBinario[i] == 0) || (arrayBinario[i] == 1)) {
+                    decimal += (arrayBinario[i] * (int) Math.pow(2, ((numBinario.length()-1)-i)));
+                } else {
+                    decimal = -1;
+                    i = numBinario.length();
+                }
             }
         }
         return decimal;
@@ -46,11 +51,15 @@ public class Binario {
      */
     public void presentar() {
         if (numBinario.length() <= 6) {
-            System.out.println("Los números con caracter binario ingresados son:");
-            for (int i = 0; i < numBinario.length(); i++) {
-                System.out.println(arrayBinario[i]);
+            if (decimal != -1) {
+                System.out.println("Los números con caracter binario ingresados son:");
+                for (int i = 0; i < numBinario.length(); i++) {
+                    System.out.println(arrayBinario[i]);
+                }
+                System.out.println("Su número en decimal es: "+getDecimal());
+            } else {
+                System.out.println("Su número no es binario");
             }
-            System.out.println("Su número en decimal es: "+getDecimal());
         } else {
             System.out.println("El número sobrepasa el tamaño especificado");
         }
