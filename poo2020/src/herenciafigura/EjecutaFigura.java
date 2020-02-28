@@ -107,6 +107,7 @@ public class EjecutaFigura {
                     System.out.println("Gracias");
                     // Finalización del ciclo while
                     nuevaFigura = false;
+                    break;
                 default:
                     System.out.println("Opción Incorrecta");
                     break;
