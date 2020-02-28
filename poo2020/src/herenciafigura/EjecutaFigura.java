@@ -90,7 +90,7 @@ public class EjecutaFigura {
                     // Datos por teclado y lectura
                     System.out.print("Ingrese el nombre de la figura: ");
                     nombre = scanner.nextLine();
-                    System.out.print("Ingrese el radio del cuadrado: ");
+                    System.out.print("Ingrese el valor del lado del cuadrado: ");
                     lado = scanner.nextDouble();
                     scanner.nextLine();
                     // Creación de objeto de la clase Circulo
