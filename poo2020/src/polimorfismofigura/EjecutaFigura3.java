@@ -87,7 +87,7 @@ public class EjecutaFigura3 {
                     System.out.println();
                     break;
                 case 4:
-                    // Creación de objeto de la clase Circulo3
+                    // Creación de objeto de la clase Cuadrado3
                     Cuadrado3 cuadrado3 = new Cuadrado3();
                     // Datos por teclado y lectura
                     System.out.print("Ingrese el nombre de la figura: ");
