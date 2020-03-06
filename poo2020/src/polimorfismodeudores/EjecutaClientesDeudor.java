@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EjecutaClientesDeudor {
     public static void main(String[] args) {
-        // Declaración de Scanner
+        // Declaracion de Scanner
         Scanner scanner = new Scanner(System.in);
 
         // Declaracion de variables

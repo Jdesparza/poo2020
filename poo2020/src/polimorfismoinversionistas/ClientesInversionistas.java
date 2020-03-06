@@ -1,7 +1,7 @@
 package polimorfismoinversionistas;
 
 public abstract class ClientesInversionistas {
-    // Definición de atributos protegidos para que puedan ser heredados
+    // Definicion de atributos protegidos para que puedan ser heredados
     protected int noCliente;
     protected int noCuenta;
     protected String nombre;

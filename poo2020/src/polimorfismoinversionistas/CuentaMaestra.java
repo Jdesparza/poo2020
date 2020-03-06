@@ -3,7 +3,7 @@ package polimorfismoinversionistas;
 public class CuentaMaestra extends ClientesInversionistas {
 
     /**
-     * Implementación del método abstracto que fue
+     * Implementacion del método abstracto que fue
      * definido en la clase padre
      */
     @Override

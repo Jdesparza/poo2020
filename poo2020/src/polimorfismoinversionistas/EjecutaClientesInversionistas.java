@@ -7,7 +7,7 @@ public class EjecutaClientesInversionistas {
         // Declaración de Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Declaracion de variables
+        // Declaración de variables
         int opcion;
         int noCliente = 0;
         double totalInteresGanado = 0;

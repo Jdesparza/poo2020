@@ -1,7 +1,7 @@
 package polimorfismoautomotriz;
 
 public abstract class EmpleadoAutomotriz {
-    // Definición de atributos protegidos para que puedan ser heredados
+    // Definicion de atributos protegidos para que puedan ser heredados
     protected String rfc;
     protected String nombre;
     protected String departamento;

@@ -1,7 +1,7 @@
 package polimorfismovolumen;
 
 public abstract class FiguraVolumen {
-    // Definición de atributos protegidos para que puedan ser heredados
+    // Definicion de atributos protegidos para que puedan ser heredados
     protected String nombre;
     protected double volumen;
 

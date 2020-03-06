@@ -7,7 +7,7 @@ public class EjecutaEmpleadoAutomotriz {
         // Declaración de Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Declaración de variables
+        // Declaracion de variables
         int opcion, i;
         int total_empleados = 0;
         double totalSueldoQuincenal = 0;

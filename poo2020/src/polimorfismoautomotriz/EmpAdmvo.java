@@ -5,7 +5,7 @@ public class EmpAdmvo extends EmpleadoAutomotriz {
     private double sueldoMensual;
 
     /**
-     * Implementación del método abstracto que fue
+     * Implementacion del método abstracto que fue
      * definido en la clase padre
      */
     @Override

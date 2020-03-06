@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EjecutaFiguraVolumen {
     public static void main(String[] args) {
-        // Declaración de scanner
+        // Declaracion de scanner
         Scanner scanner = new Scanner(System.in);
 
         // Declaración de variables
